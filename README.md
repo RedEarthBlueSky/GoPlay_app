@@ -17,6 +17,9 @@ you may at this stage be prompted to install Expo tools globally
 
 Select Yes...
 
+
+### >>>>>>>>>>>> FOLLOWING IS ERROR HANDLING
+
 After this if you get a 'requires Expo Cli error'
 
 Do the following
@@ -34,6 +37,11 @@ npm config set prefix '~/.npm-global'
 Run ps -o comm= $$ to determine which shell you are currently using .It will either be bash or zsh
 
 If you are using zsh, create a zshrc profile by running nano ~/.zshrc. If you are using bash, create a bash_profile by running nano ~/.bash_profile.
+
+###  >>>>>>>> END OF ERROR HANDLING
+
+
+If all is successfully installed
 
 **********  Install Expo on your mobile device
 
