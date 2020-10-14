@@ -27,6 +27,6 @@ Run ps -o comm= $$ to determine which shell you are currently using (It will eit
 
 If you are using zsh, create a zshrc profile by running nano ~/.zshrc. If you are using bash, create a bash_profile by running nano ~/.bash_profile.
 
-**********  Install Expo on your mobile device from whatever app store you unsafe
+**********  Install Expo on your mobile device 
 
 **********  Scan the QR code to get a development version of the app.
