@@ -17,6 +17,7 @@ you may at this stage be prompted to install Expo tools globally
 
 Select Yes...
 
+####  If after select yes you have an error
 
 ### >>>>>>>>>>>> FOLLOWING IS ERROR HANDLING
 
