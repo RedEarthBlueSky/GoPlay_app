@@ -11,7 +11,9 @@ npm start
 
 you may at this stage be prompted to install Expo tools globally
 
-If you do this and get a 'requires Expo Cli error'
+Select Yes...
+
+After this if you get a 'requires Expo Cli error'
 
 Do the following
 
