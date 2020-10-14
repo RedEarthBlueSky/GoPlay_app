@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GoPlay Sport App",
-    "slug": "GoPlay Sport App",
+    "name": "GoPlaySport_App",
+    "slug": "GoPlaySport_App",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [

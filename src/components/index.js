@@ -1,1 +1,1 @@
-export * from './FlatList'
+export * from './MyFlatList'

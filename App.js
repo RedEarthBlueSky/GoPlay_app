@@ -1,14 +1,15 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import { HomeScreen, AScreenTemplate } from "./src/screens/";
+import { HomeScreen, AScreenTemplate, ListScreen } from "./src/screens/";
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Template: AScreenTemplate,
+    Lists: ListScreen
   },
   {
-    initialRouteName: "Template",
+    initialRouteName: "Lists",
     defaultNavigationOptions: {
       title: "GoPlay Sport"
     }
