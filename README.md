@@ -1,11 +1,15 @@
-GoPlay Sport Mobile App
-Installation Walk Through
+#GoPlay Sport Mobile App
+##Installation Walk Through
 
 Working with node version v13.4.0
 
-download file to desktop or fork to repo
+download file or fork from the repo
 
-npm install for dependencies
+https://github.com/RedEarthBlueSky/GoPlay_app
+
+Once installed in an appropriate folder 
+
+npm install
 
 npm start
 
