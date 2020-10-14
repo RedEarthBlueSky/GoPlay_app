@@ -3,6 +3,8 @@ Installation Walk Through
 
 Working with node version v13.4.0
 
+download file to desktop or fork to repo
+
 npm install for dependencies
 
 npm start
