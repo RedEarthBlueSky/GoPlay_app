@@ -2,12 +2,13 @@ import react from 'react'
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-  /* creating a style guide for the entire project...  the theory is to use only the global styles */
+  /* creating a style guide for the entire project...  strive to use only the global styles */
   /* the theory is to create a list of styles that mirror the out of the box functionality of html tags */
-  /* local styles to be applied within a seperate component or screen sub folder so as to overridge but not affect globals */
+  /* local styles to be applied within a seperate component or screen sub folder so as to override, when needed, but not affect globals */
+  /* A further goal is to remove all container components and replace them with simple styles */
 
   /* default colors */
-  darkFieldGreen: {color: '#002210'},
+  darkFieldGreen: {color: '#002210'}, /* useful for backgrounds */
   buttonGreen: {color: '#019244'},
   textGreen: {color:'#11CB52'},
   footerTextgGreen: {color: '#023017'},
@@ -21,10 +22,10 @@ const styles = StyleSheet.create({
   h6: { fontSize: 10, fontWeight: 'bold' },
 
   /* list styles */
-  flatListStyle: { fontSize: 12, marginVertical: 5, },
+  flatListStyle: { fontSize: 14, marginVertical: 5, },
 
   /* wrapper styles */
-  mainWrapper: { padding: 10, },
+  mainWrapper: { padding: 20, },
 });
 
 export default styles

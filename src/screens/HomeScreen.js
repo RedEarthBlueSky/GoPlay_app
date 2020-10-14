@@ -1,14 +1,18 @@
-import React from "react";
-import { Text, StyleSheet } from "react-native";
+import React from "react"
+import { Text, View, Button } from "react-native"
+
+import styles from '../../GlobalStyles'
 
 const HomeScreen = () => {
-  return <Text style={styles.text}>Home Screen</Text>;
+  return (
+          <View style={styles.mainWrapper}>
+            <Text style={styles.h1}>Home Screen h1</Text>
+            <Button
+              title='Go to Template Demo'
+              onPress={() => console.log( 'Primitive Button Press2' )}
+            />
+          </View>
+        )
 };
 
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 30
-  }
-});
-
-export { HomeScreen };
+export { HomeScreen }

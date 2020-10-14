@@ -13,6 +13,9 @@ const dummyData = [
               { age: 100, name: 'Sooky2' }
               ]
 
+// FlatList is a React Native component but it is useful to see how it
+// works here rather than having to google this kind of thing.
+
 const MyFlatList = () => {
   const greeting = <Text style={styles.h4}>FlatList h4</Text>
   return (
@@ -20,12 +23,14 @@ const MyFlatList = () => {
            <Text style={styles.h3}>FlatList H3</Text>
            {greeting}
            <FlatList
+              // horizontal = makes the list scroll horizontal
+              showsHorizontalScrollIndicator={false} // doesn't work probably depracated
               keyExtractor={(item) => {
                 item.name
               }}
               data={dummyData}
               renderItem={({ item }) => {
-                return <Text style={styles.flatListStyle}>{item.name}: {item.age}</Text>
+                return <Text style={styles.flatListStyle}>{item.name}: -  {item.age}</Text>
               }}
            />
          </View>

@@ -4,11 +4,13 @@ import { Text, StyleSheet, View } from "react-native";
 import { MyFlatList } from '../components'
 import styles from '../../GlobalStyles'
 
+// Bring together our list generators/components into one screen to evaluate
+
 const ListScreen = () => {
-  const greeting = <Text style={styles.h2}>ListScreen Subheader!</Text>
+  const greeting = <Text style={styles.h2}>ListScreen H2!</Text>
   return (
          <View style={styles.mainWrapper}>
-             <Text style={styles.h1}>List Screen H1 Header</Text>
+             <Text style={styles.h1}>List Screen H1 </Text>
              {greeting}
              <MyFlatList />
          </View>
