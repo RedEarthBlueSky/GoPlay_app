@@ -1,12 +1,13 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import { HomeScreen, AScreenTemplate, ListScreen } from "./src/screens/";
+import { HomeScreen, AScreenTemplate, ListScreen, ComponentsDemo } from "./src/screens/";
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Template: AScreenTemplate,
-    Lists: ListScreen
+    Lists: ListScreen,
+    Components: ComponentsDemo,
   },
   {
     initialRouteName: "Home",

@@ -1,15 +1,26 @@
 import React from "react"
-import { Text, View, Button } from "react-native"
+import { Text, View, Button, TouchableOpacity } from "react-native"
 
+import { ButtonTOpacity } from '../components'
 import styles from '../../GlobalStyles'
+const { mainWrapper, greenButton, gbText } = styles
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
+
   return (
-          <View style={styles.mainWrapper}>
+          <View style={mainWrapper}>
             <Text style={styles.h1}>Home Screen h1</Text>
-            <Button
-              title='Go to Template Demo'
-              onPress={() => console.log( 'Primitive Button Press2' )}
+            <ButtonTOpacity
+              title='Go to Components Demo'
+              press={() => navigation.navigate('Components')}
+              buttonStyle={styles.greenButton}
+              textStyle={styles.gbText}
+            />
+            <ButtonTOpacity
+              title='Go to List Demo'
+              press={() => navigation.navigate('Lists')}
+              buttonStyle={styles.greenButton}
+              textStyle={styles.gbText}
             />
           </View>
         )

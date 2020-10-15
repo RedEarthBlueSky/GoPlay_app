@@ -25,7 +25,15 @@ const styles = StyleSheet.create({
   flatListStyle: { fontSize: 14, marginVertical: 5, },
 
   /* wrapper styles */
-  mainWrapper: { padding: 20, },
+  mainWrapper: { display: 'flex', padding: 20, },
+
+  /* button styles */
+  /* green button and text */
+  greenButton: { alignItems: 'center', backgroundColor: '#019244', borderRadius: 5, color: '#fff', display: 'flex', height: 50, justifyContent: 'center', marginVertical: 5, width: '100%', },
+  gbText:  { color: '#fff', fontSize: 20, fontWeight: '500', },
+  /* END green button and text */
+
+
 });
 
 export default styles
