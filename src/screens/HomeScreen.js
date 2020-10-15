@@ -5,12 +5,12 @@ import { ButtonTOpacity } from '../components'
 import styles from '../../GlobalStyles'
 import { navigationButtons } from './data'  /* grab button array from data */
 
-const navButtons = () => {
+const navButtons = (navObject) => {
   return navigationButtons.map(item => {
     return (
       <ButtonTOpacity
         title={item.title}
-        press={() => navigation.navigate(item.nav)}
+        press={() => navObject(item.nav)}
         buttonStyle={styles.greenButton}
         textStyle={styles.gbText}
       />
@@ -19,10 +19,11 @@ const navButtons = () => {
 }
 
 const HomeScreen = ({ navigation }) => {
+  const { navigate } = navigation
   return (
           <View style={styles.mainWrapper}>
             <Text style={styles.h1}>Home Screen h1</Text>
-            {navButtons()}
+            {navButtons(navigate)}
           </View>
         )
 };

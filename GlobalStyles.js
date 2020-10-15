@@ -14,12 +14,12 @@ const styles = StyleSheet.create({
   footerTextgGreen: {color: '#023017'},
 
   /* headers */
-  h1: { fontSize: 32, fontWeight: 'bold' },
-  h2: { fontSize: 24, fontWeight: 'bold' },
-  h3: { fontSize: 20, fontWeight: 'bold' },
-  h4: { fontSize: 16, fontWeight: 'bold' },
-  h5: { fontSize: 12, fontWeight: 'bold' },
-  h6: { fontSize: 10, fontWeight: 'bold' },
+  h1: { fontSize: 32, fontWeight: 'bold', margin: 5, },
+  h2: { fontSize: 24, fontWeight: 'bold', margin: 5,},
+  h3: { fontSize: 20, fontWeight: 'bold', margin: 5, },
+  h4: { fontSize: 16, fontWeight: 'bold', margin: 5, },
+  h5: { fontSize: 12, fontWeight: 'bold', margin: 5, },
+  h6: { fontSize: 10, fontWeight: 'bold', margin: 5, },
 
   /* list styles */
   flatListStyle: { fontSize: 14, marginVertical: 5, },
