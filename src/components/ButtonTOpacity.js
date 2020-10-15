@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, TouchableOpacity } from "react-native";
+import { Text, TouchableOpacity } from "react-native";
 import styles from '../../GlobalStyles'
 
 const ButtonTOpacity = ({ buttonStyle, textStyle, press, title }) => {
