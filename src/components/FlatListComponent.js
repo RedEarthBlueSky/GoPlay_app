@@ -16,7 +16,7 @@ const dummyData = [
 // FlatList is a React Native component but it is useful to see how it
 // works here rather than having to google this kind of thing.
 
-const MyFlatList = () => {
+const FlatListComponent = () => {
   const greeting = <Text style={styles.h4}>FlatList h4</Text>
   return (
          <View>
@@ -37,4 +37,4 @@ const MyFlatList = () => {
        )
 };
 
-export { MyFlatList }
+export { FlatListComponent }

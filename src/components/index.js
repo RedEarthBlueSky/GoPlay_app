@@ -1,3 +1,3 @@
-export * from './MyFlatList'
+export * from './FlatListComponent'
 export * from './ButtonTOpacity'
 export * from './ImageDetail'
