@@ -3,12 +3,11 @@ import { Text, View, Button, TouchableOpacity } from "react-native"
 
 import { ButtonTOpacity } from '../components'
 import styles from '../../GlobalStyles'
-const { mainWrapper, greenButton, gbText } = styles
 
 const HomeScreen = ({ navigation }) => {
 
   return (
-          <View style={mainWrapper}>
+          <View style={styles.mainWrapper}>
             <Text style={styles.h1}>Home Screen h1</Text>
             <ButtonTOpacity
               title='Go to Components Demo'
