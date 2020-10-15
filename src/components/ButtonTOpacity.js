@@ -7,6 +7,7 @@ const ButtonTOpacity = ({ buttonStyle, textStyle, press, title }) => {
             <TouchableOpacity
               onPress={press}
               style={buttonStyle}
+              key={title}
             >
               <Text style={textStyle}>{title}</Text>
             </TouchableOpacity>
