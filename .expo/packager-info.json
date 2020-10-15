@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 22288,
-  "expoServerNgrokUrl": "https://gs-ndh.anonymous.goplay-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.gs-ndh.anonymous.goplay-app.exp.direct",
-  "ngrokPid": 22313
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

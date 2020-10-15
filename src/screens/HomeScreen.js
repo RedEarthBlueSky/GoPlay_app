@@ -3,10 +3,10 @@ import { Text, View, Button, TouchableOpacity } from "react-native"
 
 import { ButtonTOpacity } from '../components'
 import styles from '../../GlobalStyles'
-import { buttons } from './data'  /* grab button array from data */
+import { navigationButtons } from './data'  /* grab button array from data */
 
 const navButtons = () => {
-  return buttons.map(item => {
+  return navigationButtons.map(item => {
     return (
       <ButtonTOpacity
         title={item.title}
