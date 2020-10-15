@@ -5,7 +5,6 @@ import { HomeScreen, AScreenTemplate, ListScreen, ComponentsDemo } from "./src/s
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
-    Template: AScreenTemplate,
     Lists: ListScreen,
     Components: ComponentsDemo,
   },

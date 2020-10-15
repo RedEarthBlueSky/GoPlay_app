@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   mainWrapper: { display: 'flex', padding: 20, },
 
   /* button styles */
+  
   /* green button and text */
   greenButton: { alignItems: 'center', backgroundColor: '#019244', borderRadius: 5, color: '#fff', display: 'flex', height: 50, justifyContent: 'center', marginVertical: 5, width: '100%', },
   gbText:  { color: '#fff', fontSize: 20, fontWeight: '500', },
