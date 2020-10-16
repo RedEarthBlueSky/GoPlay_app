@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Text, StyleSheet, View, Button, FlatList, ScrollView } from "react-native";
 import styles from '../../GlobalStyles'
 
-// note the only way to get flatlist to scroll is to wrap it in first a scrollview and then a view! 
+// note the only way to get flatlist to scroll is to wrap it in first a scrollview and then a view!
 
 const StateScreen = () => {
   const [counter, setCounter ] = useState(0)  //  array destructuring -- const [firstElement, secondElement ] = array
@@ -39,7 +39,7 @@ const StateScreen = () => {
               setColors([])
             }}
           />
-          <ScrollView>
+        <ScrollView>
             <View>
               <FlatList
                 keyExtractor={(item) => item }
