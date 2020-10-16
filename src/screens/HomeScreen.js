@@ -13,7 +13,7 @@ const navButtons = (navObject) => {
         press={() => navObject(item.nav)}
         buttonStyle={styles.greenButton}
         textStyle={styles.gbText}
-        key={item.title}
+        key={item.nav}
       />
     )
   })

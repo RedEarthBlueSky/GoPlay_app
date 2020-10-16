@@ -1,6 +1,6 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import { HomeScreen, ListScreen, ComponentsDemo, ImageScreen, StateScreen, SquareScreen } from "./src/screens/";
+import { HomeScreen, ListScreen, ComponentsDemo, ImageScreen, StateScreen, SquareScreen, TextScreen } from "./src/screens/";
 
 const navigator = createStackNavigator(
   {
@@ -9,7 +9,8 @@ const navigator = createStackNavigator(
     Components: ComponentsDemo,
     Images: ImageScreen,
     States: StateScreen,
-    Squares: SquareScreen
+    Squares: SquareScreen,
+    Text: TextScreen
   },
   {
     initialRouteName: "Home",

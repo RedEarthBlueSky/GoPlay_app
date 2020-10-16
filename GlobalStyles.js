@@ -15,7 +15,8 @@ const styles = StyleSheet.create({
 
   /* headers */
   h1: { fontSize: 32, fontWeight: 'bold', margin: 5, },
-  h2: { fontSize: 24, fontWeight: 'bold', margin: 5,},
+  h2: { fontSize: 24, fontWeight: 'bold', margin: 5, },
+  h2White: { alignSelf: 'center', color: '#fff', fontSize: 24, fontWeight: 'bold', margin: 5, },
   h3: { fontSize: 20, fontWeight: 'bold', margin: 5, },
   h4: { fontSize: 16, fontWeight: 'bold', margin: 5, },
   h5: { fontSize: 12, fontWeight: 'bold', margin: 5, },
@@ -25,7 +26,7 @@ const styles = StyleSheet.create({
   flatListStyle: { fontSize: 14, marginVertical: 5, },
 
   /* wrapper - container - styles */
-  mainWrapper: { display: 'flex', padding: 20,},
+  mainWrapper: { backgroundColor: '#002210', display: 'flex', padding: 20, height: '100%', },
 
   /* button styles */
 
@@ -33,6 +34,10 @@ const styles = StyleSheet.create({
   greenButton: { alignItems: 'center', backgroundColor: '#019244', borderRadius: 5, color: '#fff', display: 'flex', height: 50, justifyContent: 'center', marginVertical: 5, width: '100%', },
   gbText:  { color: '#fff', fontSize: 20, fontWeight: '500', },
   /* END green button and text */
+
+  /* Text Input */
+  textInput: { backgroundColor: '#fff', borderColor: 'grey', borderWidth: 1, borderRadius: 5, display: 'flex', height: 50, justifyContent: 'center', marginVertical: 5, paddingLeft: 15, width: '100%', },
+
 
 
 });
