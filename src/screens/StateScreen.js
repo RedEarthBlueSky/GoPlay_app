@@ -1,31 +1,49 @@
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
 import { Text, StyleSheet, View, Button, FlatList, ScrollView } from "react-native";
 import styles from '../../GlobalStyles'
 
 // note the only way to get flatlist to scroll is to wrap it in first a scrollview and then a view!
+const COUNT = 1
+const INCREASE_COUNT = 'increase_count'
+const DECREASE_COUNT = 'decrease_count'
+
+const reducer = (state, action) => {
+  switch(action.type) {
+    case INCREASE_COUNT:
+      return {...state, count: state.count + action.payload}
+    case DECREASE_COUNT:
+      return {...state, count: state.count - action.payload}
+    default:
+      return state
+  }
+}
 
 const StateScreen = () => {
-  const [counter, setCounter ] = useState(0)  //  array destructuring -- const [firstElement, secondElement ] = array
   const [colors, setColors] = useState([])
-  console.log(colors)
+
+  //  dispatch = call my reducer
+  const [state, dispatch] = useReducer(reducer, { count: 0 })
 
   return (
          <View>
            <Text style={styles.h1}>Simple State Examples</Text>
-           <Text style={styles.h3}>Counter Use Count: {counter}  </Text>
+           <Text style={styles.h3}>Counter Use Count: {state.count}  </Text>
            <Button
             title='Increase'
             onPress={() => {
-              setCounter(counter + 1)
+              dispatch({ type: INCREASE_COUNT, payload: COUNT })
             }}
            />
            <Text></Text>
            <Button
             title='Decrease'
             onPress={() => {
-              setCounter(counter - 1)
+              dispatch({ type: DECREASE_COUNT, payload: COUNT })
             }}
           />
+
+
+
           <Text style={styles.h3}> Handle Color  </Text>
           <Button
             title='Add Colors'
