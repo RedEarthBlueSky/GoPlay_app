@@ -13,27 +13,27 @@ const TextScreen = () => {
          <View style={styles.mainWrapper}>
            <Text style={styles.h2White}>Text Screen</Text>
            <TextInput
-            autoCapitalize='none'
-            autoCorrect={false}
-            style={styles.textInput}
-            placeholder='Email address...'
-            value={email}
-            onChange={(newValue) => {
-              setEmail(newValue)
-            }}
+             style={styles.textInput}
+             placeholder='Enter your email...'
+             autoCapitalize="none"
+             autoCorrect={false}
+             value={email}
+             onChangeText={newValue => setEmail(newValue)}
            />
            <TextInput
-            autoCapitalize='none'
-            autoCorrect={false}
-            style={styles.textInput}
-            placeholder='Password...'
-            value={password}
-            onChange={(newValue) => {
-              setPassword(newValue)
-            }}
+             style={styles.textInput}
+             placeholder='Enter your password...'
+             autoCapitalize="none"
+             autoCorrect={false}
+             value={password}
+             onChangeText={newValue => setPassword(newValue)}
            />
            <Text style={styles.textStyle}>Email selected is {email}</Text>
-           <Text style={styles.textStyle}>Password selected is {password}</Text>
+           { (password.length < 8 && password.length > 1)
+            ? <Text style={styles.textStyle}> Password must be at least Eight characters</Text>
+            : <Text style={styles.textStyle}>Password selected is {password} </Text>
+           }
+
          </View>
        )
 };
