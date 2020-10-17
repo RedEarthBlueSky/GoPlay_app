@@ -15,12 +15,17 @@ const styles = StyleSheet.create({
 
   /* headers */
   h1: { fontSize: 32, fontWeight: 'bold', margin: 5, },
-  h2: { fontSize: 24, fontWeight: 'bold', margin: 5, },
-  h2White: { alignSelf: 'center', color: '#fff', fontSize: 24, fontWeight: 'bold', margin: 5, },
-  h3: { fontSize: 20, fontWeight: 'bold', margin: 5, },
-  h4: { fontSize: 16, fontWeight: 'bold', margin: 5, },
-  h5: { fontSize: 12, fontWeight: 'bold', margin: 5, },
-  h6: { fontSize: 10, fontWeight: 'bold', margin: 5, },
+  h2: { fontSize: 28, fontWeight: 'bold', margin: 5, },
+  h2White: { alignSelf: 'center', color: '#fff', fontSize: 28, fontWeight: 'bold', margin: 5, },
+  h3: { fontSize: 24, fontWeight: 'bold', margin: 5, },
+  h4: { fontSize: 20, fontWeight: 'bold', margin: 5, },
+  h5: { fontSize: 18, fontWeight: 'bold', margin: 5, },
+  h6: { fontSize: 16, fontWeight: 'bold', margin: 5, },
+
+  textStyle: {
+    fontSize: 16,
+    color: '#fff'
+  },
 
   /* list styles */
   flatListStyle: { fontSize: 14, marginVertical: 5, },

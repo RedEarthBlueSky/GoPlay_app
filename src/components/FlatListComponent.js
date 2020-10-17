@@ -24,7 +24,7 @@ const FlatListComponent = () => {
            {greeting}
            <FlatList
               // horizontal = makes the list scroll horizontal
-              showsHorizontalScrollIndicator={false} // doesn't work probably depracated
+              showsHorizontalScrollIndicator={false} 
               keyExtractor={(item) => {
                 item.name
               }}
