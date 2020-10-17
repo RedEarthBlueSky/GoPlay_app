@@ -4,6 +4,7 @@ const navigationButtons = [
                   { nav: 'Images', title: 'Image Screen' },
                   { nav: 'States', title: 'Simple State Examples' },
                   { nav: 'Squares', title: 'Multiple State Example' },
-                  { nav: 'Text', title: 'Input Example' }
+                  { nav: 'Text', title: 'Input Example' },
+                  { nav: 'FlexBox', title: 'FlexBox best use'}
                 ]
 export { navigationButtons }

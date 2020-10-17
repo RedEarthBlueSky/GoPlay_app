@@ -7,6 +7,14 @@ const styles = StyleSheet.create({
   /* local styles to be applied within a seperate component or screen sub folder so as to override, when needed, but not affect globals */
   /* Remove all container components and replace them with a single style */
 
+  /*
+  to combine styles
+  style={[styles.h1, styles.white]}>
+  style={{...styles.h1, ...styles.white}}
+  */
+
+  /* line break {"\n"} */
+
   /* default colors */
   darkFieldGreen: {color: '#002210'}, /* useful for backgrounds */
   buttonGreen: {color: '#019244'},
@@ -21,6 +29,8 @@ const styles = StyleSheet.create({
   h4: { fontSize: 20, fontWeight: 'bold', margin: 5, },
   h5: { fontSize: 18, fontWeight: 'bold', margin: 5, },
   h6: { fontSize: 16, fontWeight: 'bold', margin: 5, },
+
+  white: { color: '#fff' },
 
   textStyle: {
     fontSize: 16,

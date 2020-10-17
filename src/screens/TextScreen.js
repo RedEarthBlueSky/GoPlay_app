@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text, StyleSheet, View, TextInput } from "react-native";
+import { Text, StyleSheet, View, TextInput, Button } from "react-native";
 import styles from '../../GlobalStyles'
 
 const TextScreen = () => {
@@ -33,6 +33,13 @@ const TextScreen = () => {
             ? <Text style={styles.textStyle}> Password must be at least Eight characters</Text>
             : <Text style={styles.textStyle}>Password selected is {password} </Text>
            }
+           <Button
+             title='Clear Input'
+             onPress={() => {
+               setEmail('')
+               setPassword('')
+             }}
+           />
 
          </View>
        )
