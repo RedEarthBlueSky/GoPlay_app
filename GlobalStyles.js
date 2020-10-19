@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   flatListStyle: { fontSize: 14, marginVertical: 5, },
 
   /* wrapper - container - styles */
-  mainWrapper: { backgroundColor: '#002210', display: 'flex', padding: 20, height: '100%', },
+  mainWrapper: { backgroundColor: '#002210', padding: 20, height: '100%', },
 
   /* button styles */
 
