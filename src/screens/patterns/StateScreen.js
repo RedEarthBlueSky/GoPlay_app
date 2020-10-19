@@ -1,6 +1,6 @@
 import React, { useReducer, useState } from "react";
 import { Text, StyleSheet, View, Button, FlatList, ScrollView } from "react-native";
-import styles from '../../GlobalStyles'
+import styles from '../../../GlobalStyles'
 
 // note the only way to get flatlist to scroll is to wrap it in first a scrollview and then a view!
 const COUNT = 1

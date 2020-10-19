@@ -1,8 +1,8 @@
 import React, { useReducer } from "react";
 import { Text, StyleSheet, View, Button } from "react-native";
 
-import { ColorCounter } from '../components'
-import styles from '../../GlobalStyles'
+import { ColorCounter } from '../../components'
+import styles from '../../../GlobalStyles'
 
 const COLOR_INCREMENT = 15
 const CHANGE_BLUE =  'change_blue', CHANGE_RED =  'change_red', CHANGE_GREEN =  'change_green', RESET='reset'

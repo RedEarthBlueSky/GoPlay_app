@@ -1,6 +1,7 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import { HomeScreen, ListScreen, ComponentsDemo, ImageScreen, StateScreen, SquareScreen, TextScreen, FlexBoxScreen, PatternsScreen } from "./src/screens/";
+import { HomeScreen, PatternsScreen } from "./src/screens/";
+import { ListScreen, ComponentsDemo, ImageScreen, StateScreen, SquareScreen, TextScreen, FlexBoxScreen } from './src/screens/patterns'
 
 const navigator = createStackNavigator(
   {
@@ -18,7 +19,6 @@ const navigator = createStackNavigator(
     initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "GoPlaySport",
-
     },
   }
 );

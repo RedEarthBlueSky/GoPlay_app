@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
-import { FlatListComponent } from '../components'
-import styles from '../../GlobalStyles'
+import { FlatListComponent } from '../../components'
+import styles from '../../../GlobalStyles'
 
 // Bring together our list generators/components into one screen to evaluate
 

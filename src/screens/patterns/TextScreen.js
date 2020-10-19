@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Text, StyleSheet, View, TextInput, Button } from "react-native";
-import styles from '../../GlobalStyles'
+import styles from '../../../GlobalStyles'
 
 const TextScreen = () => {
 

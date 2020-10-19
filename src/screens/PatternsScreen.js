@@ -3,7 +3,7 @@ import { Text, View, Button, TouchableOpacity } from "react-native"
 
 import { ButtonTOpacity } from '../components'
 import styles from '../../GlobalStyles'
-import { navigationButtons } from './data'  /* grab button array from data */
+import { navigationButtons } from './patterns/data'  /* grab button array from data */
 
 const navButtons = (navObject) => {
   return navigationButtons.map(item => {
