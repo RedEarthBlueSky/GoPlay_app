@@ -26,7 +26,6 @@ const localStyles = StyleSheet.create({
     flexDirection: 'column', // column default
     justifyContent: 'flex-end', // flex-end, flex-start - default , center,
     width: '100%',
-    ...StyleSheet.backgroundBlue
   },
   textStyle: {
     flex: 2,  //  take up as much space as possible on the current flexDirection - defalt 1

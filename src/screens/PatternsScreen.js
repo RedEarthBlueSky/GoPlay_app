@@ -3,10 +3,10 @@ import { Text, View, Button, TouchableOpacity } from "react-native"
 
 import { ButtonTOpacity } from '../components'
 import styles from '../../GlobalStyles'
-import { homeNavButtons } from './data'  /* grab button array from data */
+import { navigationButtons } from './data'  /* grab button array from data */
 
 const navButtons = (navObject) => {
-  return homeNavButtons.map(item => {
+  return navigationButtons.map(item => {
     return (
       <ButtonTOpacity
         title={item.title}
@@ -19,14 +19,14 @@ const navButtons = (navObject) => {
   })
 }
 
-const HomeScreen = ({ navigation }) => {
+const PatternsScreen = ({ navigation }) => {
   const { navigate } = navigation
   return (
           <View style={styles.mainWrapper}>
-            <Text style={styles.h1}>Home Screen h1</Text>
+            <Text style={styles.h1}>Patterns Screen Submenu</Text>
             {navButtons(navigate)}
           </View>
         )
 };
 
-export { HomeScreen }
+export { PatternsScreen }
