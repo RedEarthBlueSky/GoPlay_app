@@ -23,7 +23,7 @@ const HomeScreen = ({ navigation }) => {
   const { navigate } = navigation
   return (
           <View style={styles.mainWrapper}>
-            <Text style={styles.h1}>Home Screen h1</Text>
+            <Text style={styles.h1}>Home Screen</Text>
             {navButtons(navigate)}
           </View>
         )
